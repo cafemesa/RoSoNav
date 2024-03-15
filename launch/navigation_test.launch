@@ -1,0 +1,128 @@
+<launch>
+    <arg name="dataset" default="seq_eth"/>
+    <arg name="scene_id" default="0"/>
+    <arg name="robot"/>
+    <arg name="speed" default="1.8"/>
+    <arg name="method"/>
+    <arg name="robot_origin_x" default="0.0"/>
+	<arg name="robot_origin_y" default="0.0"/>
+	<arg name="robot_origin_yaw" default="0.0"/>
+    <arg name="robot_goal_x" default="5.0"/>
+	<arg name="robot_goal_y" default="5.0"/>
+	<arg name="linear_velocity" default="0.5"/>
+
+    <!-- **************************************************** -->
+    <!-- ************** Launch Gazebo Scenario ************** -->
+    <!-- **************************************************** -->
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="use_sim_time" value="true" />
+        <arg name="debug" value="false" />
+        <arg name="gui" value="false" />
+        <arg name="world_name" value="$(find social_robot_testbed)/worlds/$(arg dataset)/scene$(arg scene_id)_$(arg speed)_1.world" />
+    </include>
+
+    <!-- **************************************************** -->
+    <!-- ************* Launch Position publisher ************ -->
+    <!-- **************************************************** -->
+
+    <!-- <node name="positions_publisher" pkg="social_robot_testbed" type="positions_publisher" /> -->
+
+    <!-- **************************************************** -->
+    <!-- **************** Launch Robot Model **************** -->
+    <!-- **************************************************** -->
+
+    <!-- If is Turtlebot 2  -->
+    <group if="$(eval arg('robot') == 'turtlebot2')">
+        <arg name="urdf_file" default="$(find xacro)/xacro '$(find social_robot_testbed)/launch/Turlebot_Velodyne_Model/kobuki.urdf.xacro'" />
+        <param name="robot_description" command="$(arg urdf_file)" />
+        
+        <!-- Gazebo model spawner -->
+        <node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model" args="-x $(arg robot_origin_x) -y $(arg robot_origin_y) -Y $(arg robot_origin_yaw)  -unpause -urdf -param robot_description -model mobile_base" />
+        
+        <!-- Velocity muxer -->
+        <node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager" />
+        <node pkg="nodelet" type="nodelet" name="cmd_vel_mux" args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
+            <param name="yaml_cfg_file" value="$(find turtlebot_bringup)/param/mux.yaml" />
+            <remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity" />
+        </node>
+
+        <!-- Bumper/cliff to pointcloud (not working, as it needs sensors/core messages) -->
+        <include file="$(find turtlebot_bringup)/launch/includes/kobuki/bumper2pc.launch.xml" />
+        <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+            <param name="publish_frequency" type="double" value="30.0" />
+        </node>
+
+        <!-- Start PointCloud Fast Filter (Convert 3D PointCloud into 2D Laser) -->
+        <node name="traversable_scan" pkg="traversable_mapping" type="traversable_scan">
+            <param name="subSensorTopic" value="/velodyne_points" />
+            <param name="subRobotPoseTopic" value="/amcl_pose" />
+            <param name="pubScanTopic" value="/scan" />
+            <param name="pubPointCloudTopic" value="/pointcloud_traversable" />
+            <param name="pubFrameId" value="base_link" />
+            <param name="robotHeight" value="0.85" />
+            <param name="sensorHeight" value="0.74" />
+            <param name="scanResolution" value="0.2" />
+            <param name="horizontalFieldOfView" value="360" />
+            <param name="pubScan" value="true" />
+            <param name="pubPointcloud" value="true" />
+        </node>
+    </group>   
+
+    <!-- If is Turtlebot 2  -->
+    <group if="$(eval arg('robot') == 'evarobot')"> 
+    
+    </group>   
+
+
+    <!-- **************************************************** -->
+    <!-- ************* Launch Robot Controller ************** -->
+    <!-- **************************************************** -->
+
+    <!-- If is Unaware Robot Navigation -->
+	<group if="$(eval method == 'unaware')">
+		<node name="rc_unaware" pkg="social_robot_testbed" type="rc_unaware">
+			<param name="goal_x" value="$(arg robot_goal_x)" />
+			<param name="goal_y" value="$(arg robot_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+    
+    <!-- If is Social Force Model -->
+	<group if="$(eval method == 'sf')">
+		<node name="rc_sf" pkg="social_robot_testbed" type="rc_sf">
+			<param name="goal_x" value="$(arg robot_goal_x)" />
+			<param name="goal_y" value="$(arg robot_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+    
+    <!-- If is Optimal Reciprocal Collision Avoidance -->
+	<group if="$(eval method == 'rvo')">
+		<node name="rc_rvo" pkg="social_robot_testbed" type="rc_rvo">
+			<param name="goal_x" value="$(arg robot_goal_x)" />
+			<param name="goal_y" value="$(arg robot_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+    
+    <!-- If is SACADRL - Deep Reinforcement Learning -->
+	<group if="$(eval method == 'sacadrl')"> 
+		<node name="rc_sacadrl" pkg="social_robot_testbed" type="rc_sacadrl.py">
+			<param name="goal_x" value="$(arg robot_goal_x)" />
+			<param name="goal_y" value="$(arg robot_goal_y)" />
+			<param name="linear_velocity" value="$(arg linear_velocity)" />
+		</node>
+	</group>
+
+    <!-- **************************************************** -->
+    <!-- ******************** Map Server ******************** -->
+    <!-- **************************************************** -->
+
+    <!-- <node name="map_server" pkg="map_server" type="map_server" args="$(find social_robot_testbed)/maps/$(arg dataset)/map.yaml" /> -->
+
+    <!-- **************************************************** -->
+    <!-- *********************** RVIZ *********************** -->
+    <!-- **************************************************** -->
+    <!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find social_robot_testbed)/rviz_cfg/social_navigation.rviz" /> -->
+</launch>

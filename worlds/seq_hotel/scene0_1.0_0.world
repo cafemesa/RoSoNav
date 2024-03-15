@@ -1,0 +1,2632 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <actor name="actor1"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>1.3983781 -5.7433032 -2 0 0 -1.763051066990496</pose></waypoint>
+<waypoint><time>139.9999</time><pose>1.3983781 -5.7433032 -2 0 0 -1.763051066990496</pose></waypoint>
+<waypoint><time>140.0</time><pose>1.3983781 -5.7433032 0 0 0 -1.763051066990496</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>1.267545 -6.4154175 0 0 0 -1.763051066990496</pose></waypoint>
+<waypoint><time>140.96689435566867</time><pose>1.267545 -6.4154175 -2 0 0 -1.763051066990496</pose></waypoint>
+<waypoint><time>500</time><pose>1.267545 -6.4154175 -2 0 0 -1.763051066990496</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor2"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>0.51779648 -7.0038322 -2 0 0 -1.5107433992370363</pose></waypoint>
+<waypoint><time>139.9999</time><pose>0.51779648 -7.0038322 -2 0 0 -1.5107433992370363</pose></waypoint>
+<waypoint><time>140.0</time><pose>0.51779648 -7.0038322 0 0 0 -1.5107433992370363</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>0.5569951 -7.6557818 0 0 0 -1.5107433992370363</pose></waypoint>
+<waypoint><time>140.96689435566867</time><pose>0.5569951 -7.6557818 -2 0 0 -1.5107433992370363</pose></waypoint>
+<waypoint><time>500</time><pose>0.5569951 -7.6557818 -2 0 0 -1.5107433992370363</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor3"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>2.2598137 -4.5465974 -2 0 0 2.220117389547083</pose></waypoint>
+<waypoint><time>139.9999</time><pose>2.2598137 -4.5465974 -2 0 0 2.220117389547083</pose></waypoint>
+<waypoint><time>140.0</time><pose>2.2598137 -4.5465974 0 0 0 2.220117389547083</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>1.8993694 -4.0717874 0 0 0 2.1739563698559934</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>1.48972 -3.4285524 0 0 0 2.1843529355385396</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>1.1052616 -2.9441553 0 0 0 2.1545839373476237</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>0.81525226 -2.4075526 0 0 0 2.186588619315734</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>0.40463108 -1.9539709 0 0 0 2.194382345549978</pose></waypoint>
+<waypoint><time>145.795366134012</time><pose>0.14538609 -1.4763249 0 0 0 2.045065666050582</pose></waypoint>
+<waypoint><time>146.76126048968067</time><pose>-0.1295651 -0.91335984 0 0 0 1.991556656503797</pose></waypoint>
+<waypoint><time>147.72715484534933</time><pose>-0.36630557 -0.33284107 0 0 0 1.930877917766233</pose></waypoint>
+<waypoint><time>148.693049201018</time><pose>-0.56547902 0.24445831 0 0 0 1.93040068238844</pose></waypoint>
+<waypoint><time>149.65894355668667</time><pose>-0.78703486 0.78626504 0 0 0 1.9366982762584122</pose></waypoint>
+<waypoint><time>150.62483791235536</time><pose>-0.95475798 1.2604385 0 0 0 1.9519238817549</pose></waypoint>
+<waypoint><time>151.59073226802403</time><pose>-1.2144196 1.8528052 0 0 0 2.0863450819647253</pose></waypoint>
+<waypoint><time>152.5566266236927</time><pose>-1.4897414 2.2045274 0 0 0 2.2349499190581517</pose></waypoint>
+<waypoint><time>152.5576266236927</time><pose>-1.4897414 2.2045274 -2 0 0 2.2349499190581517</pose></waypoint>
+<waypoint><time>500</time><pose>-1.4897414 2.2045274 -2 0 0 2.2349499190581517</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor4"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>2.7401793 -2.4238506 -2 0 0 1.5415801350853813</pose></waypoint>
+<waypoint><time>139.9999</time><pose>2.7401793 -2.4238506 -2 0 0 1.5415801350853813</pose></waypoint>
+<waypoint><time>140.0</time><pose>2.7401793 -2.4238506 0 0 0 1.5415801350853813</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>2.7614036 -1.6976005 0 0 0 1.5804636381178783</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>2.7264517 -1.0038863 0 0 0 1.5975809799935488</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>2.7254206 -0.35450066 0 0 0 1.5804636378370789</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>2.7127434 0.41407434 0 0 0 1.6504682497861465</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>2.6173633 0.99890642 0 0 0 1.6656143008619273</pose></waypoint>
+<waypoint><time>145.795366134012</time><pose>2.5856139 1.750828 0 0 0 1.642811863420662</pose></waypoint>
+<waypoint><time>146.76126048968067</time><pose>2.5241017 2.2916867 0 0 0 1.6840402726724693</pose></waypoint>
+<waypoint><time>146.76226048968067</time><pose>2.5241017 2.2916867 -2 0 0 1.6840402726724693</pose></waypoint>
+<waypoint><time>500</time><pose>2.5241017 2.2916867 -2 0 0 1.6840402726724693</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor5"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>-1.5855017 0.92758368 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>139.9999</time><pose>-1.5855017 0.92758368 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>140.0</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>145.795366134012</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>146.76126048968067</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>147.72715484534933</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>148.693049201018</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>149.65894355668667</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>150.62483791235536</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>151.59073226802403</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>152.5566266236927</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>-1.5855017 0.92758368 0 0 0 0.0</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>-1.5855017 0.92758368 0 0 0 2.9912603922079004</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>-1.605166 0.93056232 0 0 0 2.9912603922079004</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>-1.605166 0.93056232 0 0 0 0.0</pose></waypoint>
+<waypoint><time>164.1483588917167</time><pose>-1.605166 0.93056232 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>500</time><pose>-1.605166 0.93056232 -2 0 0 0.0</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor6"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>-1.7211497 1.3181645 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>139.9999</time><pose>-1.7211497 1.3181645 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>140.0</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>145.795366134012</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>146.76126048968067</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>147.72715484534933</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>148.693049201018</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>149.65894355668667</time><pose>-1.7211497 1.3181645 0 0 0 -0.15393149659428962</pose></waypoint>
+<waypoint><time>150.62483791235536</time><pose>-1.7014442 1.315107 0 0 0 -0.15393149659428962</pose></waypoint>
+<waypoint><time>151.59073226802403</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>152.5566266236927</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>-1.7014442 1.315107 0 0 0 0.0</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>-1.7014442 1.315107 0 0 0 2.987661156995504</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>-1.7211497 1.3181645 0 0 0 2.987661156995504</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>-1.7211497 1.3181645 0 0 0 0.0</pose></waypoint>
+<waypoint><time>164.1483588917167</time><pose>-1.7211497 1.3181645 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>500</time><pose>-1.7211497 1.3181645 -2 0 0 0.0</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor7"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>-2.4448244 2.2787857 -2 0 0 1.5102842404037153</pose></waypoint>
+<waypoint><time>139.9999</time><pose>-2.4448244 2.2787857 -2 0 0 1.5102842404037153</pose></waypoint>
+<waypoint><time>140.0</time><pose>-2.4448244 2.2787857 0 0 0 1.5102842404037153</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>-2.4324205 2.4835189 0 0 0 1.51028424100622</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>-2.4249809 2.6063116 0 0 0 1.4003433310977835</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>-2.3701952 2.8450349 0 0 0 1.5603535102280925</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>-2.4165818 3.4105767 0 0 0 1.6154933277902936</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>-2.4130049 3.8021739 0 0 0 1.561662417384385</pose></waypoint>
+<waypoint><time>144.83047177834334</time><pose>-2.4130049 3.8021739 -2 0 0 1.561662417384385</pose></waypoint>
+<waypoint><time>500</time><pose>-2.4130049 3.8021739 -2 0 0 1.561662417384385</pose></waypoint>
+    </trajectory></script></actor>
+    <!--actor name="actor8"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>-1.4476874 -0.75584795 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>139.9999</time><pose>-1.4476874 -0.75584795 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>140.0</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>141.93178871133733</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>142.897683067006</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>143.86357742267467</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>144.82947177834333</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>145.795366134012</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>146.76126048968067</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>147.72715484534933</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>148.693049201018</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>149.65894355668667</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>150.62483791235536</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>151.59073226802403</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>152.5566266236927</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>-1.4476874 -0.75584795 0 0 0 2.143050840452976</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>-1.5202023 -0.64327399 0 0 0 0.0</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>-1.4476874 -0.75584795 0 0 0 -0.9985418131368172</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>-1.4476874 -0.75584795 0 0 0 2.3297260647788054</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>-1.5595225 -0.63793023 0 0 0 1.9995201468834871</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>-1.5177839 -0.60248974 0 0 0 -0.8118665888109879</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>-1.4476874 -0.75584795 0 0 0 -1.142072506706306</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>-1.4476874 -0.75584795 0 0 0 0.0</pose></waypoint>
+<waypoint><time>164.1483588917167</time><pose>-1.4476874 -0.75584795 -2 0 0 0.0</pose></waypoint>
+<waypoint><time>500</time><pose>-1.4476874 -0.75584795 -2 0 0 0.0</pose></waypoint>
+    </trajectory></script></actor-->
+    <actor name="actor9"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>1.1644552 -8.6045992 -2 0 0 -1.5367022436140987</pose></waypoint>
+<waypoint><time>139.9999</time><pose>1.1644552 -8.6045992 -2 0 0 -1.5367022436140987</pose></waypoint>
+<waypoint><time>140.0</time><pose>1.1644552 -8.6045992 0 0 0 -1.5367022436140987</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>1.1858444 -9.2317137 0 0 0 -1.5367022436140987</pose></waypoint>
+<waypoint><time>140.96689435566867</time><pose>1.1858444 -9.2317137 -2 0 0 -1.5367022436140987</pose></waypoint>
+<waypoint><time>500</time><pose>1.1858444 -9.2317137 -2 0 0 -1.5367022436140987</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor10"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>-0.10579863 -9.902063 -2 0 0 1.513832781038067</pose></waypoint>
+<waypoint><time>139.9999</time><pose>-0.10579863 -9.902063 -2 0 0 1.513832781038067</pose></waypoint>
+<waypoint><time>140.0</time><pose>-0.10579863 -9.902063 0 0 0 1.513832781038067</pose></waypoint>
+<waypoint><time>140.96589435566867</time><pose>-0.10463361 -9.8816332 0 0 0 1.513832781038067</pose></waypoint>
+<waypoint><time>140.96689435566867</time><pose>-0.10463361 -9.8816332 -2 0 0 1.513832781038067</pose></waypoint>
+<waypoint><time>500</time><pose>-0.10463361 -9.8816332 -2 0 0 1.513832781038067</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor11"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>0.39605728 2.8989098 -2 0 0 -1.6525931153914954</pose></waypoint>
+<waypoint><time>153.52242097936136</time><pose>0.39605728 2.8989098 -2 0 0 -1.6525931153914954</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>0.39605728 2.8989098 0 0 0 -1.6525931153914954</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>0.33270944 2.1261839 0 0 0 -1.6045020269251253</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>0.34146738 1.2799188 0 0 0 -1.5247913890734677</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>0.40921307 0.4644134 0 0 0 -1.5247947984541277</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>0.41800369 -0.38268497 0 0 0 -1.514906065699893</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>0.50348097 -1.2204905 0 0 0 -1.5023653829832744</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>0.53231991 -2.0506106 0 0 0 -1.5247895061237315</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>0.58003254 -2.8832343 0 0 0 -1.52950688938935</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>0.60434818 -3.7940913 0 0 0 -1.4727559481870631</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>0.76052335 -4.7183165 0 0 0 -1.5169337057499166</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>0.70617103 -5.6826804 0 0 0 -1.6055234254470763</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>0.69963944 -6.470822 0 0 0 -1.5473588757168204</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>0.74512667 -7.3444872 0 0 0 -1.509429104476122</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>0.8083194 -8.2395756 0 0 0 -1.520010330239439</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>0.83498199 -9.112259 0 0 0 -1.5402534007494162</pose></waypoint>
+<waypoint><time>167.0460419587227</time><pose>0.83498199 -9.112259 -2 0 0 -1.5402534007494162</pose></waypoint>
+<waypoint><time>500</time><pose>0.83498199 -9.112259 -2 0 0 -1.5402534007494162</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor12"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>1.2607439 2.8275463 -2 0 0 -1.2054245159906423</pose></waypoint>
+<waypoint><time>153.52242097936136</time><pose>1.2607439 2.8275463 -2 0 0 -1.2054245159906423</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>1.2607439 2.8275463 0 0 0 -1.2054245159906423</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>1.3422731 2.6144249 0 0 0 -1.3656231233488405</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>1.3638001 2.3323255 0 0 0 -1.5716720137058051</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>1.341681 1.9381791 0 0 0 -1.541959476896015</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>1.389171 1.4527609 0 0 0 -1.5174763820782413</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>1.3963358 0.91411569 0 0 0 -1.6108052018666972</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>1.3424136 0.28470736 0 0 0 -1.58276325701468</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>1.3810983 -0.35911982 0 0 0 -1.5973964500909128</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>1.3085578 -0.98775965 0 0 0 -1.6405087900156374</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>1.2871593 -1.7044569 0 0 0 -1.5754361554421474</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>1.3017896 -2.4464726 0 0 0 -1.5892281351963504</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>1.2595449 -3.2024831 0 0 0 -1.6144453330070405</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>1.234734 -3.981742 0 0 0 -1.5901963720781167</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>1.2296364 -4.7439598 0 0 0 -1.5660632349128363</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>1.2420555 -5.5286139 0 0 0 -1.5107698895528108</pose></waypoint>
+<waypoint><time>168.01093631439136</time><pose>1.3170404 -6.1983014 0 0 0 -1.564459395823128</pose></waypoint>
+<waypoint><time>168.97683067006005</time><pose>1.2516204 -7.0379732 0 0 0 -1.5798603585137028</pose></waypoint>
+<waypoint><time>169.94272502572872</time><pose>1.3024616 -7.8066748 0 0 0 -1.5398374579804321</pose></waypoint>
+<waypoint><time>170.9086193813974</time><pose>1.298505 -8.5519056 0 0 0 -1.5761055500260963</pose></waypoint>
+<waypoint><time>170.9096193813974</time><pose>1.298505 -8.5519056 -2 0 0 -1.5761055500260963</pose></waypoint>
+<waypoint><time>500</time><pose>1.298505 -8.5519056 -2 0 0 -1.5761055500260963</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor13"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>0.99607551 3.7911944 -2 0 0 -1.9096969019712307</pose></waypoint>
+<waypoint><time>153.52242097936136</time><pose>0.99607551 3.7911944 -2 0 0 -1.9096969019712307</pose></waypoint>
+<waypoint><time>153.52252097936136</time><pose>0.99607551 3.7911944 0 0 0 -1.9096969019712307</pose></waypoint>
+<waypoint><time>154.48841533503003</time><pose>0.8838029 3.4726909 0 0 0 -1.9053140507257378</pose></waypoint>
+<waypoint><time>155.4543096906987</time><pose>0.74799948 3.0774719 0 0 0 -1.7275293207189295</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>0.73631184 2.5393753 0 0 0 -1.5778369223519126</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>0.73997807 1.9381822 0 0 0 -1.5491694013767086</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>0.7623926 1.333624 0 0 0 -1.535251475960614</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>0.78368607 0.7090424 0 0 0 -1.569479813147663</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>0.76410875 0.030071855 0 0 0 -1.6000238979977048</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>0.74337893 -0.66964434 0 0 0 -1.6007927927545318</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>0.72149301 -1.390194 0 0 0 -1.6028595818977593</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>0.69392067 -2.2116372 0 0 0 -1.5678686121889822</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>0.72614973 -2.9807575 0 0 0 -1.5736287216825076</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>0.6899268 -3.6216995 0 0 0 -1.6003681412464412</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>0.68452698 -4.3878615 0 0 0 -1.578483109202843</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>0.67798747 -5.1748974 0 0 0 -1.554270649795412</pose></waypoint>
+<waypoint><time>168.01093631439136</time><pose>0.71027589 -5.9458351 0 0 0 -1.538807699257919</pose></waypoint>
+<waypoint><time>168.97683067006005</time><pose>0.72599697 -6.6752154 0 0 0 -1.5249448716258776</pose></waypoint>
+<waypoint><time>169.94272502572872</time><pose>0.77827294 -7.4277814 0 0 0 -1.5326353171173326</pose></waypoint>
+<waypoint><time>170.9086193813974</time><pose>0.78722073 -8.2787905 0 0 0 -1.5602823859887933</pose></waypoint>
+<waypoint><time>170.9096193813974</time><pose>0.78722073 -8.2787905 -2 0 0 -1.5602823859887933</pose></waypoint>
+<waypoint><time>500</time><pose>0.78722073 -8.2787905 -2 0 0 -1.5602823859887933</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor14"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>3.9981583 -2.345655 -2 0 0 1.5766493894804945</pose></waypoint>
+<waypoint><time>156.42010404636736</time><pose>3.9981583 -2.345655 -2 0 0 1.5766493894804945</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>3.9981583 -2.345655 0 0 0 1.5766493894804945</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>3.994628 -1.7425124 0 0 0 1.6536164381565501</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>3.9116669 -1.3037155 0 0 0 1.6736673335359045</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>3.9010168 -0.83573816 0 0 0 1.592022338927197</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>3.8913916 -0.34864652 0 0 0 1.6643928528985925</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>3.8103933 0.12966924 0 0 0 1.6643788483256412</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>3.8007819 0.61675835 0 0 0 1.5905260190904373</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>3.7911742 1.1036593 0 0 0 1.5967824429914368</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>3.7774752 1.5134466 0 0 0 1.6491110878669888</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>3.7171033 2.0475353 0 0 0 1.6439780637964854</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>3.7054604 2.4957436 0 0 0 1.5951028794984976</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>3.6948467 2.9630201 0 0 0 1.593506451774058</pose></waypoint>
+<waypoint><time>167.0460419587227</time><pose>3.6948467 2.9630201 -2 0 0 1.593506451774058</pose></waypoint>
+<waypoint><time>500</time><pose>3.6948467 2.9630201 -2 0 0 1.593506451774058</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor15"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>3.1288617 -2.2558812 -2 0 0 1.5524013362270173</pose></waypoint>
+<waypoint><time>156.42010404636736</time><pose>3.1288617 -2.2558812 -2 0 0 1.5524013362270173</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>3.1288617 -2.2558812 0 0 0 1.5524013362270173</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>3.1382244 -1.7469568 0 0 0 1.5709935233158214</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>3.1286644 -1.255469 0 0 0 1.6262847161586702</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>3.0833548 -0.75912316 0 0 0 1.6083216714787334</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>3.0916839 -0.2704522 0 0 0 1.5361510011857957</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>3.1157762 0.17631296 0 0 0 1.5552811951370942</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>3.1062294 0.66697425 0 0 0 1.5530470347768541</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>3.1334342 1.171063 0 0 0 1.5545012379880891</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>3.1217999 1.6224206 0 0 0 1.6355953182497893</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>3.07447 2.0797445 0 0 0 1.5983149143072208</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>3.0974955 2.5053945 0 0 0 1.5167539975077515</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>3.1215431 2.9499377 0 0 0 1.516753995742585</pose></waypoint>
+<waypoint><time>167.0460419587227</time><pose>3.1215431 2.9499377 -2 0 0 1.516753995742585</pose></waypoint>
+<waypoint><time>500</time><pose>3.1215431 2.9499377 -2 0 0 1.516753995742585</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor16"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>3.5639945 -5.8544754 -2 0 0 1.75120706993299</pose></waypoint>
+<waypoint><time>156.42010404636736</time><pose>3.5639945 -5.8544754 -2 0 0 1.75120706993299</pose></waypoint>
+<waypoint><time>156.42020404636736</time><pose>3.5639945 -5.8544754 0 0 0 1.75120706993299</pose></waypoint>
+<waypoint><time>157.38609840203603</time><pose>3.4256303 -5.0958745 0 0 0 1.7200119751394396</pose></waypoint>
+<waypoint><time>158.3519927577047</time><pose>3.3394518 -4.3608407 0 0 0 1.6924129759524655</pose></waypoint>
+<waypoint><time>159.31788711337336</time><pose>3.2384748 -3.5645719 0 0 0 1.6969357974730137</pose></waypoint>
+<waypoint><time>160.28378146904203</time><pose>3.1373794 -2.7673698 0 0 0 1.6403980111147638</pose></waypoint>
+<waypoint><time>161.2496758247107</time><pose>3.1267001 -1.961247 0 0 0 1.6623129502566076</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>2.9896853 -1.1580279 0 0 0 1.7296373606044533</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>2.8566313 -0.27532427 0 0 0 1.7343183619530183</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>2.7307501 0.41132097 0 0 0 1.742705073035424</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>2.60783 1.1576775 0 0 0 1.7454378462883857</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>2.4666187 1.9083339 0 0 0 1.8083019824486564</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>2.2503828 2.6342767 0 0 0 1.8602969761387746</pose></waypoint>
+<waypoint><time>167.0460419587227</time><pose>2.2503828 2.6342767 -2 0 0 1.8602969761387746</pose></waypoint>
+<waypoint><time>500</time><pose>2.2503828 2.6342767 -2 0 0 1.8602969761387746</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor17"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>1.4302367 -8.1973697 -2 0 0 1.3939564198536518</pose></waypoint>
+<waypoint><time>162.21547018037936</time><pose>1.4302367 -8.1973697 -2 0 0 1.3939564198536518</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>1.4302367 -8.1973697 0 0 0 1.3939564198536518</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>1.565124 -7.4425727 0 0 0 1.421787115021425</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>1.6658627 -6.6278058 0 0 0 1.3820505206570237</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>1.877881 -5.8052689 0 0 0 1.402708681978609</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>1.9399255 -5.0127148 0 0 0 1.4937761547353388</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>2.0061824 -4.1427489 0 0 0 1.515882702381559</pose></waypoint>
+<waypoint><time>168.01093631439136</time><pose>2.0345955 -3.2904689 0 0 0 1.591934793275321</pose></waypoint>
+<waypoint><time>168.97683067006005</time><pose>1.9703547 -2.448095 0 0 0 1.622890783792178</pose></waypoint>
+<waypoint><time>169.94272502572872</time><pose>1.9449291 -1.5708001 0 0 0 1.6037272411763632</pose></waypoint>
+<waypoint><time>170.9086193813974</time><pose>1.9151631 -0.77272082 0 0 0 1.5946943687359376</pose></waypoint>
+<waypoint><time>171.87451373706605</time><pose>1.9059075 0.061726348 0 0 0 1.4940565357693163</pose></waypoint>
+<waypoint><time>172.84040809273472</time><pose>2.0461963 0.93142582 0 0 0 1.5272077190794746</pose></waypoint>
+<waypoint><time>173.8063024484034</time><pose>1.9745336 1.6351333 0 0 0 1.6722824477797114</pose></waypoint>
+<waypoint><time>173.8073024484034</time><pose>1.9745336 1.6351333 -2 0 0 1.6722824477797114</pose></waypoint>
+<waypoint><time>500</time><pose>1.9745336 1.6351333 -2 0 0 1.6722824477797114</pose></waypoint>
+    </trajectory></script></actor>
+    <actor name="actor18"><skin><filename>walk.dae</filename></skin><animation name="walking"><filename>walk.dae</filename><interpolate_x>true</interpolate_x></animation><script><trajectory id="0" type="walking">
+<waypoint><time>0</time><pose>3.286625 -6.6962718 -2 0 0 1.5667592128484111</pose></waypoint>
+<waypoint><time>162.21547018037936</time><pose>3.286625 -6.6962718 -2 0 0 1.5667592128484111</pose></waypoint>
+<waypoint><time>162.21557018037936</time><pose>3.286625 -6.6962718 0 0 0 1.5667592128484111</pose></waypoint>
+<waypoint><time>163.18146453604803</time><pose>3.2895653 -5.9679735 0 0 0 1.6058099966877941</pose></waypoint>
+<waypoint><time>164.1473588917167</time><pose>3.2368212 -5.2744413 0 0 0 1.5954360031656287</pose></waypoint>
+<waypoint><time>165.11325324738536</time><pose>3.2555554 -4.5879649 0 0 0 1.5680883266229646</pose></waypoint>
+<waypoint><time>166.07914760305403</time><pose>3.2406531 -3.8593906 0 0 0 1.5554572423647537</pose></waypoint>
+<waypoint><time>167.0450419587227</time><pose>3.2772083 -3.17646 0 0 0 1.557089257761709</pose></waypoint>
+<waypoint><time>168.01093631439136</time><pose>3.2591848 -2.5074942 0 0 0 1.6226525906761546</pose></waypoint>
+<waypoint><time>168.97683067006005</time><pose>3.2065293 -1.8147032 0 0 0 1.5965771270766886</pose></waypoint>
+<waypoint><time>169.94272502572872</time><pose>3.224205 -1.150977 0 0 0 1.5570428453005603</pose></waypoint>
+<waypoint><time>170.9086193813974</time><pose>3.2250793 -0.46604127 0 0 0 1.5171322602866333</pose></waypoint>
+<waypoint><time>171.87451373706605</time><pose>3.2961363 0.18813712 0 0 0 1.4153933217250254</pose></waypoint>
+<waypoint><time>172.84040809273472</time><pose>3.4431953 0.92619249 0 0 0 1.4626002074337598</pose></waypoint>
+<waypoint><time>173.8063024484034</time><pose>3.4377637 1.4920126 0 0 0 1.5803955138458912</pose></waypoint>
+<waypoint><time>173.8073024484034</time><pose>3.4377637 1.4920126 -2 0 0 1.5803955138458912</pose></waypoint>
+<waypoint><time>500</time><pose>3.4377637 1.4920126 -2 0 0 1.5803955138458912</pose></waypoint>
+    </trajectory></script></actor>
+    <model name="group_0">
+      <pose>-0.56 1.09 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10846621290596761 0.10846621290596761 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10846621290596761 0.10846621290596761 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_1">
+      <pose>-0.56 1.04 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.01779331107974701 0.01779331107974701 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.01779331107974701 0.01779331107974701 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_2">
+      <pose>-0.50 1.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1373275872426393 0.1373275872426393 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1373275872426393 0.1373275872426393 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_3">
+      <pose>-0.52 1.15 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.055814840051728404 0.055814840051728404 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.055814840051728404 0.055814840051728404 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_4">
+      <pose>-0.50 1.03 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.09426481850733141 0.09426481850733141 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.09426481850733141 0.09426481850733141 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_5">
+      <pose>-0.77 -4.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10640647050192958 0.10640647050192958 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10640647050192958 0.10640647050192958 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_6">
+      <pose>-0.77 -4.42 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.06263739789327895 0.06263739789327895 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06263739789327895 0.06263739789327895 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_7">
+      <pose>-0.77 -4.90 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10278978921715472 0.10278978921715472 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10278978921715472 0.10278978921715472 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_8">
+      <pose>-0.77 -4.80 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1011463659081783 0.1011463659081783 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1011463659081783 0.1011463659081783 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_9">
+      <pose>-0.77 -4.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10487606401113828 0.10487606401113828 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10487606401113828 0.10487606401113828 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_10">
+      <pose>-0.76 -4.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10485238748119301 0.10485238748119301 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10485238748119301 0.10485238748119301 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_11">
+      <pose>-0.56 -1.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10318755587273323 0.10318755587273323 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10318755587273323 0.10318755587273323 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_12">
+      <pose>-0.45 1.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.03495496692460551 0.03495496692460551 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.03495496692460551 0.03495496692460551 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_13">
+      <pose>-0.77 -5.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10752174278107636 0.10752174278107636 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10752174278107636 0.10752174278107636 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_14">
+      <pose>-0.77 -5.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.09881197196613331 0.09881197196613331 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.09881197196613331 0.09881197196613331 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_15">
+      <pose>-0.55 -1.06 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.01779331107974701 0.01779331107974701 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.01779331107974701 0.01779331107974701 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_16">
+      <pose>-0.78 -5.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10456344462860367 0.10456344462860367 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10456344462860367 0.10456344462860367 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_17">
+      <pose>-0.78 -5.40 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10675986647848676 0.10675986647848676 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10675986647848676 0.10675986647848676 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_18">
+      <pose>-0.77 -5.30 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10752174278107617 0.10752174278107617 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10752174278107617 0.10752174278107617 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_19">
+      <pose>-0.77 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.09881197196613142 0.09881197196613142 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.09881197196613142 0.09881197196613142 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_20">
+      <pose>-0.70 -4.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12847871527930452 0.12847871527930452 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12847871527930452 0.12847871527930452 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_21">
+      <pose>-0.70 -4.41 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1284380566008964 0.1284380566008964 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1284380566008964 0.1284380566008964 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_22">
+      <pose>-0.50 -1.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.14193066059836684 0.14193066059836684 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.14193066059836684 0.14193066059836684 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_23">
+      <pose>-0.52 -0.95 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.055814840051728536 0.055814840051728536 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.055814840051728536 0.055814840051728536 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_24">
+      <pose>-0.78 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10736999835150011 0.10736999835150011 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10736999835150011 0.10736999835150011 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_25">
+      <pose>-0.70 -4.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13736640136554099 0.13736640136554099 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13736640136554099 0.13736640136554099 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_26">
+      <pose>-0.70 -4.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13697679180245897 0.13697679180245897 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13697679180245897 0.13697679180245897 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_27">
+      <pose>-0.50 -1.07 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.0942648185073315 0.0942648185073315 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.0942648185073315 0.0942648185073315 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_28">
+      <pose>-0.77 -5.69 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.08752847982169377 0.08752847982169377 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.08752847982169377 0.08752847982169377 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_29">
+      <pose>-0.70 -4.90 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13622161737658786 0.13622161737658786 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13622161737658786 0.13622161737658786 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_30">
+      <pose>-0.70 -4.80 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12417966687291751 0.12417966687291751 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12417966687291751 0.12417966687291751 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_31">
+      <pose>-0.70 -5.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13512316920300252 0.13512316920300252 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13512316920300252 0.13512316920300252 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_32">
+      <pose>-0.70 -5.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12389432661931286 0.12389432661931286 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12389432661931286 0.12389432661931286 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_33">
+      <pose>-0.70 -5.30 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13565471752386224 0.13565471752386224 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13565471752386224 0.13565471752386224 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_34">
+      <pose>-0.70 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12389432661931538 0.12389432661931538 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12389432661931538 0.12389432661931538 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_35">
+      <pose>-0.58 -2.98 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.0900762334629447 0.0900762334629447 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.0900762334629447 0.0900762334629447 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_36">
+      <pose>-0.58 -2.92 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.09080988017727099 0.09080988017727099 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.09080988017727099 0.09080988017727099 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_37">
+      <pose>-0.70 -5.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13808311158966338 0.13808311158966338 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13808311158966338 0.13808311158966338 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_38">
+      <pose>-0.70 -5.40 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12389432661931521 0.12389432661931521 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12389432661931521 0.12389432661931521 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_39">
+      <pose>-0.70 -5.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13731039260981232 0.13731039260981232 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13731039260981232 0.13731039260981232 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_40">
+      <pose>-0.70 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12389432661931789 0.12389432661931789 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12389432661931789 0.12389432661931789 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_41">
+      <pose>-0.60 -4.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1313211945582409 0.1313211945582409 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1313211945582409 0.1313211945582409 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_42">
+      <pose>-0.60 -4.41 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12342417544413818 0.12342417544413818 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12342417544413818 0.12342417544413818 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_43">
+      <pose>-0.45 -1.01 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.05825827820767714 0.05825827820767714 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.05825827820767714 0.05825827820767714 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_44">
+      <pose>-0.60 -4.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1277403387128315 0.1277403387128315 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1277403387128315 0.1277403387128315 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_45">
+      <pose>-0.60 -4.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13292050672749367 0.13292050672749367 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13292050672749367 0.13292050672749367 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_46">
+      <pose>-0.52 -2.98 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.0818268348694776 0.0818268348694776 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.0818268348694776 0.0818268348694776 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_47">
+      <pose>-0.52 -2.92 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.076967835417764 0.076967835417764 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.076967835417764 0.076967835417764 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_48">
+      <pose>-0.60 -4.90 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12774033871283286 0.12774033871283286 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12774033871283286 0.12774033871283286 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_49">
+      <pose>-0.60 -4.80 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1342788522191303 0.1342788522191303 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1342788522191303 0.1342788522191303 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_50">
+      <pose>-0.60 -5.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13130358808738585 0.13130358808738585 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13130358808738585 0.13130358808738585 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_51">
+      <pose>-0.60 -5.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1342788522191267 0.1342788522191267 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1342788522191267 0.1342788522191267 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_52">
+      <pose>-0.60 -5.30 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1323159227331806 0.1323159227331806 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1323159227331806 0.1323159227331806 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_53">
+      <pose>-0.60 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13679944612788322 0.13679944612788322 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13679944612788322 0.13679944612788322 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_54">
+      <pose>-0.60 -5.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1342689893764419 0.1342689893764419 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1342689893764419 0.1342689893764419 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_55">
+      <pose>-0.60 -5.40 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13697679180246183 0.13697679180246183 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13697679180246183 0.13697679180246183 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_56">
+      <pose>-0.60 -5.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13701709375919224 0.13701709375919224 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13701709375919224 0.13701709375919224 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_57">
+      <pose>-0.60 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1377628913019406 0.1377628913019406 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1377628913019406 0.1377628913019406 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_58">
+      <pose>-0.59 -5.76 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.06697780806207403 0.06697780806207403 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06697780806207403 0.06697780806207403 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_59">
+      <pose>-0.50 -4.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1352971661710618 0.1352971661710618 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1352971661710618 0.1352971661710618 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_60">
+      <pose>-0.50 -4.42 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.11384686995043776 0.11384686995043776 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.11384686995043776 0.11384686995043776 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_61">
+      <pose>-0.50 -4.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13312823112185945 0.13312823112185945 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13312823112185945 0.13312823112185945 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_62">
+      <pose>-0.50 -4.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1342788522191292 0.1342788522191292 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1342788522191292 0.1342788522191292 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_63">
+      <pose>-0.50 -4.90 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13058688956222478 0.13058688956222478 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13058688956222478 0.13058688956222478 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_64">
+      <pose>-0.50 -4.80 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13427885221912914 0.13427885221912914 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13427885221912914 0.13427885221912914 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_65">
+      <pose>-0.50 -5.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12835441713348494 0.12835441713348494 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12835441713348494 0.12835441713348494 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_66">
+      <pose>-0.50 -5.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13176749539956498 0.13176749539956498 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13176749539956498 0.13176749539956498 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_67">
+      <pose>-0.50 -5.30 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12723132101736256 0.12723132101736256 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12723132101736256 0.12723132101736256 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_68">
+      <pose>-0.50 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13176749539956306 0.13176749539956306 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13176749539956306 0.13176749539956306 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_69">
+      <pose>-0.50 -5.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12970938275581104 0.12970938275581104 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12970938275581104 0.12970938275581104 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_70">
+      <pose>-0.50 -5.40 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13176749539956306 0.13176749539956306 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13176749539956306 0.13176749539956306 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_71">
+      <pose>-0.50 -5.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13175274321959493 0.13175274321959493 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13175274321959493 0.13175274321959493 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_72">
+      <pose>-0.50 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13427885221912875 0.13427885221912875 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13427885221912875 0.13427885221912875 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_73">
+      <pose>-0.49 -5.76 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1020007831180423 0.1020007831180423 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1020007831180423 0.1020007831180423 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_74">
+      <pose>-0.41 -4.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.14326532844936665 0.14326532844936665 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.14326532844936665 0.14326532844936665 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_75">
+      <pose>-0.42 -4.44 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.06269355016973764 0.06269355016973764 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.06269355016973764 0.06269355016973764 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_76">
+      <pose>-0.40 -4.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1389326578130797 0.1389326578130797 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1389326578130797 0.1389326578130797 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_77">
+      <pose>-0.40 -4.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12389432661931747 0.12389432661931747 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12389432661931747 0.12389432661931747 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_78">
+      <pose>-0.40 -4.90 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13599839431531469 0.13599839431531469 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13599839431531469 0.13599839431531469 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_79">
+      <pose>-0.40 -4.80 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12417966687291963 0.12417966687291963 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12417966687291963 0.12417966687291963 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_80">
+      <pose>-0.40 -5.10 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13426898937643703 0.13426898937643703 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13426898937643703 0.13426898937643703 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_81">
+      <pose>-0.40 -5.00 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13697679180246464 0.13697679180246464 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13697679180246464 0.13697679180246464 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_82">
+      <pose>-0.40 -5.30 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1313035880873867 0.1313035880873867 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1313035880873867 0.1313035880873867 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_83">
+      <pose>-0.40 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1367994461278834 0.1367994461278834 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1367994461278834 0.1367994461278834 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_84">
+      <pose>-0.40 -5.50 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12973528825043837 0.12973528825043837 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12973528825043837 0.12973528825043837 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_85">
+      <pose>-0.40 -5.40 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13427885221912647 0.13427885221912647 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13427885221912647 0.13427885221912647 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_86">
+      <pose>-0.40 -5.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.12774033871283005 0.12774033871283005 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.12774033871283005 0.12774033871283005 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_87">
+      <pose>-0.40 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.13427885221912927 0.13427885221912927 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.13427885221912927 0.13427885221912927 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_88">
+      <pose>-0.40 -5.77 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.0991797468430389 0.0991797468430389 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.0991797468430389 0.0991797468430389 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_89">
+      <pose>-0.35 -4.71 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.03495496692460725 0.03495496692460725 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.03495496692460725 0.03495496692460725 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_90">
+      <pose>-0.35 -4.89 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.046606622566140656 0.046606622566140656 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.046606622566140656 0.046606622566140656 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_91">
+      <pose>-0.34 -5.09 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.10832847506132794 0.10832847506132794 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.10832847506132794 0.10832847506132794 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_92">
+      <pose>-0.34 -5.01 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.08473052938309496 0.08473052938309496 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.08473052938309496 0.08473052938309496 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_93">
+      <pose>-0.35 -5.27 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.046606622566140656 0.046606622566140656 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.046606622566140656 0.046606622566140656 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_94">
+      <pose>-0.34 -5.20 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.08156158949074788 0.08156158949074788 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.08156158949074788 0.08156158949074788 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_95">
+      <pose>-0.34 -5.52 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.05639498888778455 0.05639498888778455 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.05639498888778455 0.05639498888778455 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_96">
+      <pose>-0.34 -5.70 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.09508527379924595 0.09508527379924595 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.09508527379924595 0.09508527379924595 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_97">
+      <pose>-0.34 -5.60 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.08156158949074788 0.08156158949074788 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.08156158949074788 0.08156158949074788 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="group_98">
+      <pose>-0.34 -5.77 0.5 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.023303311283072076 0.023303311283072076 1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.023303311283072076 0.023303311283072076 1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+          </material>
+        </visual>
+      </link>
+    </model>
+<model name="ground_plane"><static>true</static><link name="link"><collision name="collision"><geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry></collision><visual name="visual"><geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry><material><ambient>1 1 1 1</ambient></material></visual></link></model>    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>30</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+  <state world_name="default"><sim_time>130 0</sim_time></state><sim_time>130 0</sim_time></world>
+</sdf>

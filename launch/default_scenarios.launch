@@ -1,0 +1,12 @@
+<launch>
+    <arg name="dataset"/>
+    <arg name="scene_id"/>
+
+    <!-- Launch Gazebo Simulator -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="use_sim_time" value="true" />
+        <arg name="debug" value="false" />
+        <arg name="gui" value="false" />
+        <arg name="world_name" value="$(find social_robot_testbed)/worlds/$(arg dataset)/scene$(arg scene_id)_1.8_1.world" />
+    </include>
+</launch>
